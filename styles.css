@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family and center content */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f9; /* Light gray background */
+}
+
+/* Center container and limit its width */
+.container {
+    max-width: 800px; /* Limit width for readability */
+    margin: 20px; /* Add some margin around the container */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Center controls and add some spacing */
+.controls {
+    margin-bottom: 20px; /* Spacing below controls */
+    text-align: center; /* Center align text */
+}
+
+/* Style the visualization container */
+#visualizationContainer {
+    width: 100%; /* Full width of its parent */
+    height: 500px; /* Fixed height */
+    margin: 20px auto; /* Center horizontally with margin */
+    border: 1px solid #ccc; /* Light gray border */
+    background-color: #fff; /* White background */
+    position: relative; /* Position relative for absolute positioning inside */
+    overflow: hidden; /* Hide overflow for clean appearance */
+}
+
+/* Style for bars in the visualization */
+.bar {
+    display: inline-block; /* Display as inline-block for horizontal layout */
+    width: 20px; /* Fixed width of bars */
+    margin: 0 2px; /* Small margin between bars */
+    background-color: #3498db; /* Blue background color */
+    vertical-align: bottom; /* Align bars at the bottom */
+}
+
+/* Minimalist color theme */
+body {
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.container {
+    background-color: #f8f8f8; /* Light gray background */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+}
+
+#visualizationContainer {
+    border: none; /* Remove border */
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.bar {
+    background-color: #555; /* Dark gray background color */
+}

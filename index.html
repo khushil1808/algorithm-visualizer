@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Algorithm Visualizer</h1>
+        <div class="controls">
+            <select id="algorithmSelect">
+                <option value="bubbleSort">Bubble Sort</option>
+                <option value="quickSort">Quick Sort</option>
+                <option value="mergeSort" selected>Merge Sort</option>
+            </select>
+            <button id="startButton">Start Visualization</button>
+            <button id="resetButton">Reset</button> <!-- New Reset Button -->
+        </div>
+        <div id="visualizationContainer">
+            <!-- Visualization will be rendered here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
